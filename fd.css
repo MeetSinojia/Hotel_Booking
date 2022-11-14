@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+body {
+
+    background-image: linear-gradient(to right, #eac1ff, #dfc9ff, #d7d0ff, #d1d6ff, #cedbff);
+}
+
+header {
+    height: 105vh;
+    width: 98.9vw;
+    background-size: cover;
+
+}
+
+.me img {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 400px;
+    height: 300px;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.info {
+    position: absolute;
+    top: 45%;
+    Left: 61%;
+    transform: translate(-35%, -50%);
+
+}
+
+.title h1 {
+    color: black;
+    font-size: 70px;
+}
+
+.map {
+    margin: 50px 0;
+}
+
+.map iframe {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.map h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.map b {
+    display: block;
+    margin-bottom: 16px;
+}

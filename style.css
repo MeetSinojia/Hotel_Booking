@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/resort1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.header h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.search-bar {
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.search-bar form button {
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-bar form button img {
+    width: 15px;
+    margin-top: 7px;
+}
+
+.input {
+    flex: 1;
+}
+
+.search-bar form label {
+    font-weight: 600;
+}
+
+.sub-title {
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #ff5361;
+}
+
+.exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.exclusives div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exclusives a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.exclusives div {
+    position: relative;
+}
+
+.exclusives div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img {
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.trending h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cta {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.cta h3 {
+    font-size: 4vw;
+    line-height: 5.3w;
+    font-weight: 500;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.navbar-white {
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-white .nav-links li a {
+    color: #000;
+}
+
+.navbar-white .register-btn {
+    background: #ff5361;
+    color: #fff;
+}
+
+.navbar-white .active ::after {
+    background: #ff5361;
+}
+
+.list-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-col {
+    flex-basis: 70%;
+}
+
+.right-col {
+    flex-basis: 25%;
+}
+
+.left-col h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.house {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+
+.house-image {
+    flex-basis: 40%;
+}
+
+.house-info {
+    flex-basis: 58%;
+    color: #555;
+}
+
+.house-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.house-info a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    margin: 4px 0;
+}
+
+.house-info i {
+    color: #ff5361;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+
+.house-price {
+    text-align: right;
+}
+
+.house-price h4 {
+    font-size: 20px;
+
+}
+
+.house-price h4 span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sidebar {
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.sidebar h2 {
+    font-weight: 500;
+}
+
+.sidebar h3 {
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.filter p {
+    flex: 1;
+}
+
+.filter input {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sidebar-link {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.sidebar-link a {
+    text-decoration: none;
+
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.pagination img {
+    width: 15px;
+    margin: 10px 20px;
+}
+
+.pagination .right-arrow {
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.pagination span {
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination .current {
+    background: #333;
+    color: #fff;
+}
+
+.house-details {
+    padding: 0 12%;
+}
+
+.house-title {
+    margin-top: 50px;
+}
+
+.house-title h1 {
+    font-weight: 600;
+}
+
+.house-title .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.house-title span {
+    margin: 0 20px;
+}
+
+.house-title i {
+    color: #ff5361;
+    font-size: 14px;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .' 'first first . .';
+    margin: 20px 0;
+}
+
+.gallery div img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.gallery-img-1 {
+    grid-area: first;
+}
+
+.small-details h2 {
+    font-weight: 500;
+}
+
+.small-details h4 {
+    text-align: right;
+    font-size: 22px;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+
+.check-form {
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.check-form label {
+    display: block;
+}
+
+.check-form div {
+    padding: 20px;
+}
+
+.check-form input {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.check-form a {
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.guest-field {
+    flex: 1;
+}
+
+.detail-list {
+    list-style: none;
+    margin: 50px 0;
+}
+
+.detail-list li {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+
+.detail-list li span {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.detail-list li i {
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+
+.home-dec {
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.map {
+    margin: 50px 0;
+}
+
+.map iframe {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.map h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.map b {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.host {
+    display: flex;
+    align-items: center;
+}
+
+.host img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.host h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.host i {
+    color: #ff5361;
+}
+
+.contact-host {
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+/*media section starts here*/
+#media {
+    background: #1d2a35;
+    padding: 80px 0;
+    color: white;
+}
+
+#media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0.3;
+    }
+}
+
+#media button {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    animation: blink 1s linear infinite;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/** social media ends here**/
+/*footer section starts here*/
+#footer {
+    background-color: #1d2a35;
+    color: #fff;
+    margin-top: 0;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.footer-box .bi {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: 2px solid black;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #7afdca, #00fa9a);
+
+}
+
+.hr {
+    background-color: 2px solid black;
+
+}
+
+.copyrights {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #ff5361;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#footer table {
+    padding-bottom: 30px;
+}
+
+/**footer ends here**/

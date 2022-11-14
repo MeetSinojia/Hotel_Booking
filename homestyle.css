@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.p1 {
+  color: white;
+  font-size: 40px;
+}
+
+.p2 {
+  margin-top: 30px;
+  text-indent: 30%;
+  color: white;
+  font-size: 100px
+}
+
+.btn_menu {
+  border: 5px solid rgb(38, 200, 100);
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 120px;
+
+}
+
+.btn_menu:hover {
+  background: rgb(38, 200, 100);
+  text-decoration: none;
+}
+
+.open {
+  background-color: rgb(105, 200, 38);
+  color: black;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+.menu {
+  overflow: hidden;
+  background-color: black;
+  margin-left: 75px;
+
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-indent: 40px;
+  padding: 20px 150px;
+  text-decoration: none;
+  font-size: 40px;
+  border: 1px solid grey;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: rgb(216, 27, 27);
+  color: white;
+}
+
+.m1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pizza {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+}
+
+.ptype1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+div.price {
+  border: 1px solid grey;
+  background: grey;
+  color: white;
+  text-align: right;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  float: right;
+}
+
+
+.ingred_1 {
+  font-size: 20px;
+}
+
+.pasta {
+  background-color: black;
+  width: 100%;
+  font-size: 40px;
+  color: white;
+}
+
+.starters {
+  background-color: black;
+  width: 100%;
+  font-size: 40px;
+  color: white;
+}
+
+.about1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.about2 {
+  color: white;
+  font-size: 50px;
+  margin-left: 40px;
+
+
+}
+
+.chkout {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.f1 {
+  background-color: rgb(38, 200, 100);
+}
+
+.l1 {
+  color: white;
+  font-size: 20px;
+
+}
+
+.l2 {
+  padding: 0px;
+  font-size: 10px;
+
+}
+
+.fbox {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.textimg {
+  margin: 0%;
+  position: relative;
+}
+
+.txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  font-size: 30px;
+
+}
+
+.b1 {
+  background-color: rgb(34, 194, 175);
+}
